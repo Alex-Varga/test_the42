@@ -778,8 +778,6 @@ header.header-main {
 }
 
 
-
-
 @media (max-width: 420px ) {
   .container {
     padding: 0 19px;
@@ -808,6 +806,7 @@ header.header-main {
   .section-main {
     background-image: url('../img/bg-main-mob.png'), linear-gradient(2.76deg, #FDFAF8 11.68%, rgba(255, 255, 255, 0) 80.51%);;
     background-position: top center;
+    background-size: cover;
     .right-item {
       padding: 380px 20px 80px;
       .block {
@@ -948,7 +947,7 @@ header.header-main {
 
   .section8 {
     padding: 0;
-    min-height: 840px;
+    height: 860px;
     .wrapper-block {
       top: -310px;
       .main-title {
