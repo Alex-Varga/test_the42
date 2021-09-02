@@ -983,7 +983,7 @@ header.header-main {
   right: 60px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .container {
     padding: 0 19px;
   }
