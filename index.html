@@ -11,19 +11,17 @@
 </head>
 <body>
   <header class="header-main">
-    <div class="top-header"><p>Free shipping over $100</p></div>
+    <p class="top-header">Free shipping over $100</p>
     <div class="main-header container">
       <div class="header">
         <div class="menu">Menu</div>
         <div class="header-logo"><img src="./img/logo.png" alt="logo"></div>
-        <nav class="header-menu">
-          <ul class="menu__list">
-            <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Shop</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">What is Coffeeface</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
-          </ul>
+        <nav class="nav">
+          <a class="menu__link" href="#">Home</a>
+          <a class="menu__link" href="#">Shop</a>
+          <a class="menu__link" href="#">About</a>
+          <a class="menu__link" href="#">What is Coffeeface</a>
+          <a class="menu__link" href="#">Contact</a>
         </nav>
         <div class="header-icon">
           <div class="header-search"><img src="./img/search.svg" alt="search"></div>
@@ -54,7 +52,7 @@
     </div>
     <div class="right-item">
       <div class="block">
-        <div class="block-title">3-in-1 Pads Exfoliate. Serum. Moisturize.</div>
+        <h1 class="block-title">3-in-1 Pads Exfoliate. Serum. Moisturize.</h1>
         <div class="block-reviews">
           <span>Reviews</span>
           <div class="rating">
@@ -75,10 +73,10 @@
     </div>
   </div>
   <div class="section4">
-    <div class="main-title">Exfoliate.<br>Serum.<br>Moisturize.</div>
+    <h1 class="main-title">Exfoliate.<br>Serum.<br>Moisturize.</h1>
   </div>
   <div class="section5">
-    <div class="main-title">How to use the CoffeeFace</div>
+    <h1 class="main-title">How to use the CoffeeFace</h1>
     <div class="block">
       <div class="block-item">
         <div class="item-img"><img src="./img/hand-washing.svg" alt="hand-washing"></div>
@@ -95,7 +93,7 @@
     </div>
   </div>
   <div class="section6">
-    <div class="main-title">Testimonials</div>
+    <h1 class="main-title">Testimonials</h1>
     <div class="swiper mySwiper">
       <div class="arrow-wrapper">
         <div class="swiper-button-prev">
@@ -142,26 +140,49 @@
   </div>
   <div class="section7">
     <div class="image"><img src="./img/aloe.png" alt="aloe"></div>
-  </div>
-  <div class="section8">
+
     <div class="wrapper-block">
-      <div class="main-title">Blog</div>
+      <h1 class="main-title">Blog</h1>
+
       <div class="block">
         <div class="block-item">
           <div class="item-image"><img src="./img/image1-s7.png" alt="image"></div>
-          <div class="item-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</div>
+          <p class="item-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</p>
         </div>
         <div class="block-item">
           <div class="item-image"><img src="./img/image2-s7.png" alt="image"></div>
-          <div class="item-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</div>
+          <p class="item-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</p>
         </div>
         <div class="block-item">
           <div class="item-image"><img src="./img/image3-s7.png" alt="image"></div>
-          <div class="item-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</div>
+          <p class="item-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</з>
         </div>
       </div>
-      <div class="image-brand"><img src="./img/image-brand.png" alt="brand"></div>
     </div>
+    
+    <h1 class="main-title-slider">Blog</h1>
+      
+    <div class="swiper mySwiper3">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/image1-s7.png" alt="image">
+          <p class="item-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/image2-s7.png" alt="image">
+          <p class="item-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/image3-s7.png" alt="image">
+          <p class="item-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="section8">
+    <div class="image-brand"><img src="./img/image-brand.png" alt="brand"></div>
   </div>
   <div class="section9">
     <div class="block">
@@ -176,7 +197,7 @@
     </div>
   </div>
   <div class="section10">
-    <div class="main-title">@coffee_face</div>
+    <h1 class="main-title">@coffee_face</h1>
     <div class="arrow-wrapper">
       <div class="swiper-button-next">
         <img src="./img/Arrow-slide.svg" alt="arrow">
@@ -256,7 +277,7 @@
                 <rect width="17" height="17" fill="white" transform="translate(0.0390625 0.764893)"/>
                 </clipPath>
                 </defs>
-              </svg>                
+              </svg>               
             </a>
           </div>
         </div>
@@ -279,7 +300,14 @@
 
   </div>
 
+
+
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous">
+  </script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="./js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

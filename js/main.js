@@ -1,3 +1,9 @@
+$(document).ready(function() {
+  $('.menu').click(function() {
+    $('.nav').toggleClass('open-menu');
+  });
+});
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: "auto",
   centeredSlides: true,
@@ -23,4 +29,9 @@ var swiper = new Swiper(".mySwiper2", {
       },
     } 
   }
+});
+
+var swiper = new Swiper(".mySwiper3", {
+  slidesPerView: 1.3,
+  spaceBetween: 10,
 });
