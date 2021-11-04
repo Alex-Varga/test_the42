@@ -464,6 +464,12 @@ header.header-main {
   border: 0;
 }
 
+@media (max-width: 420px) {
+  .section3 .right-item .block button {
+    padding: 23px 23px;
+  }
+}
+
 .section4 {
   display: block;
   margin: 0;
