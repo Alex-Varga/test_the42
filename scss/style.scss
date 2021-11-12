@@ -134,11 +134,10 @@ li {
   background-color: rgb(253, 247,	244);
   background-image: url('../img/main-img.png');
   background-repeat: no-repeat;
-  background-position: center left;
+  background-position: bottom left;
   display: flex;
   justify-content: flex-end;
-  height: 100vh;
-  padding-top: 96px;
+  padding-top: 100px;
 
   .right-item {
     padding: 200px 60px 306px;

@@ -169,15 +169,14 @@ li {
   background-color: #fdf7f4;
   background-image: url("../img/main-img.png");
   background-repeat: no-repeat;
-  background-position: center left;
+  background-position: bottom left;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  height: 100vh;
-  padding-top: 96px;
+  padding-top: 100px;
 }
 
 .section-main .right-item {
