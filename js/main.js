@@ -32,6 +32,15 @@ var swiper = new Swiper(".mySwiper2", {
 });
 
 var swiper = new Swiper(".mySwiper3", {
-  slidesPerView: 1.3,
-  spaceBetween: 10,
+  breakpoints: {
+    0: {
+      slidesPerView: 1.3,
+      spaceBetween: 10,
+    },
+    778: {
+      allowTouchMove: false,
+      slidesPerView: 3,
+      spaceBetween: 10,
+    }
+  }
 });
