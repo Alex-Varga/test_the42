@@ -588,21 +588,36 @@ li {
           position: relative;
           height: 100%;
           cursor: pointer;
-          &::after {
+
+          .overlay {
+            opacity: 0;
             position: absolute;
-            content: '';
-            display: block;
+            background-color: transparent;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
             width: 100%;
             height: 100%;
-            left: 0;
-            top: 0;
-            transition: 250ms background-color;
-          }
-          &:hover {
+            margin: 0 auto;
+            transition: all .2s linear;
+            
             &::after {
-              background-color: rgba(#8A5137, .6);
+              position: absolute;
+              content: '';
+              display: block;
+              width: 100%;
+              height: 100%;
+              left: 0;
+              top: 0;
+              transition: 250ms background-color;
             }
           }
+
+          :hover.overlay {
+            opacity: 1;
+          }
+      
         }
 
         img {
